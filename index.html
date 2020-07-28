@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="./css/style.css" />
+	<link rel="stylesheet" href="./css/reset.css" />
+
+</head>
+	<body>
+		<p id="rp">
+			(R)
+			<input type="range" min="0" max="255" value="0" id="r"/>
+			<input type="text" class="refresh" id="rbox" value="0" readonly disabled/>
+		</p>
+
+		<p id="gp">
+			(G)
+			<input type="range" min=0 max="255" value="0" id="g"/>
+			<input type="text" class="refresh" id="gbox" value="0" readonly disabled/>
+		</p>
+
+		<p id="bp">
+			(B)
+			<input type="range" min="0" max="255" value="0" id="b"/>
+			<input type="text" class="refresh" id="bbox" value="0" readonly disabled/>
+		</p>
+
+		<div class="color">
+		</div>
+		<p id="colorrgb">rgb(-,-,-)</p>
+
+		<script defer src="./js/script.js"></script>
+	</body>
+</html>

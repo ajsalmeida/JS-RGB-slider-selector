@@ -1,0 +1,139 @@
+.color{
+  border-top: 50px;
+  border-bottom: 50px;
+  width: 20rem;
+  height: 20rem;
+  background-color: #000000;
+}
+body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #dedfe0;
+}
+
+h1{
+  color: gray;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+}
+
+.refresh{
+  width: 1.5rem;
+  color: white;
+border-radius: 20px;
+text-align: center;
+margin-bottom: 1rem;
+}
+
+
+#rbox{
+  background-color: red;
+}
+
+#gbox{
+  background-color: green;
+}
+
+#bbox{
+  background-color: blue;
+}
+
+#r,
+#g,
+#b{
+width: 20rem;
+}
+
+#r{
+  margin-top: 2rem;
+-webkit-appearance: none;
+  height: 10px;
+  background: red;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+#r:hover{
+  opacity: 5;
+}
+#r::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 10px;
+  height: 35px;
+  background: gray;
+}
+
+#g{
+  -webkit-appearance: none;
+  height: 10px;
+  background: green;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+
+}
+#g:hover{
+  opacity: 5;
+}
+#g::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 10px;
+  height: 35px;
+  background: gray;
+  cursor: pointer;
+}
+#b{
+    -webkit-appearance: none;
+  height: 10px;
+  background: blue;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+#b:hover{
+  opacity: 5;
+}
+#b::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 10px;
+  height: 35px;
+  background: gray;
+  cursor: pointer;
+}
+
+#rp{
+  color: red;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+#gp{
+  color: green;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+#bp{
+  color: blue;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+#colorrgb{
+    font-weight: bold;
+    font-size: 45px;
+    text-shadow: 1px 1px #000000;
+}
